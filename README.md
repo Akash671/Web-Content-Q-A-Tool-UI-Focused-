@@ -22,19 +22,27 @@ Google Gemini, Flask 2.0 (for prompt engineering, code development, and debuggin
 
 # HOW To Run Locally:
 
-1. Install Libraries:
+1. clone this repository in your local PC (and please make sure python enviorment is installed in local PC)
+use "$ git clone https://github.com/Akash671/Web-Content-Q-A-Tool-UI-Focused-.git" command to clone this repository
+
+ then go to the "Web-Content-Q-A-Tool-UI-Focused" folder and in this folder there is two main component.
+ i). templates ---> folder contains UI code
+ ii). app.py ----> python file contains main code
+ iii). now open cmd/terminal in same directory 
+
+2. Install Libraries:
    run below command on cmd/terminal
    pip install Flask beautifulsoup4 requests langchain-community langchain-cohere faiss-cpu
 
 
-2. Set Cohere API Key:
+3. Set Cohere API Key:
 Replace "YOUR_COHERE_API_KEY" with your actual Cohere API key in app.py file and save this file. Using environment variables (as shown below) is the recommended approach.
 
-3. Run the App(run below command on cmd/terminal:
+4. Run the App(run below command on cmd/terminal:
 
 python app.py
 
-4. Open in Browser:
+5. Open in Browser:
 Open your web browser and go to http://127.0.0.1:5000/
 
 now UI is open and user can intract with that.
